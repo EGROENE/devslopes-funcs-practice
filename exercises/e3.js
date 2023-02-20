@@ -40,11 +40,11 @@ function getValueWithConditionOne(x, y) {
   return x === 40 && y === 40 ? x + y : (x + y) * 2;
 }
 
-let getValueWithConditionTwo = function (x, y) {
+const getValueWithConditionTwo = (x, y) => {
   return x === 40 && y === 40 ? x + y : (x + y) * 2;
 };
 
-const getValueWithConditionThree = (x, y) => {
+let getValueWithConditionThree = function (x, y) {
   return x === 40 && y === 40 ? x + y : (x + y) * 2;
 };
 
